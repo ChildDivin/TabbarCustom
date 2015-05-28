@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeVC.h
 //  Urban96
 //
 //  Created by Tops on 5/28/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HomeVC : UIViewController
 
 @end
-

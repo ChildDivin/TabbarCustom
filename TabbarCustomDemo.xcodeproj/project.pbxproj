@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E730310E1B16D29B0019E5E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E730310D1B16D29B0019E5E0 /* main.m */; };
+		E73031191B16D29B0019E5E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73031181B16D29B0019E5E0 /* Images.xcassets */; };
+		E730311C1B16D29B0019E5E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E730311A1B16D29B0019E5E0 /* LaunchScreen.xib */; };
+		E73031281B16D29B0019E5E0 /* Urban96Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E73031271B16D29B0019E5E0 /* Urban96Tests.m */; };
+		E73031431B16DD1B0019E5E0 /* UITabBarCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = E73031421B16DD1B0019E5E0 /* UITabBarCustom.m */; };
+		E73031481B16DDB50019E5E0 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = E73031471B16DDB50019E5E0 /* Singleton.m */; };
+		E73031561B16E1190019E5E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E730314D1B16E1190019E5E0 /* AppDelegate.m */; };
+		E73031571B16E1190019E5E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73031541B16E1190019E5E0 /* ViewController.m */; };
+		E73031581B16E1190019E5E0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E73031551B16E1190019E5E0 /* ViewController.xib */; };
+		E730315C1B16E1510019E5E0 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E730315A1B16E1510019E5E0 /* HomeVC.m */; };
+		E730315D1B16E1510019E5E0 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E730315B1B16E1510019E5E0 /* HomeVC.xib */; };
+		E73031611B16E1630019E5E0 /* NewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E730315F1B16E1630019E5E0 /* NewVC.m */; };
+		E73031621B16E1630019E5E0 /* NewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E73031601B16E1630019E5E0 /* NewVC.xib */; };
+		E73031661B16E1810019E5E0 /* ScheduleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E73031641B16E1810019E5E0 /* ScheduleVC.m */; };
+		E73031671B16E1810019E5E0 /* ScheduleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E73031651B16E1810019E5E0 /* ScheduleVC.xib */; };
+		E730316B1B16E1910019E5E0 /* ShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E73031691B16E1910019E5E0 /* ShareVC.m */; };
+		E730316C1B16E1910019E5E0 /* ShareVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E730316A1B16E1910019E5E0 /* ShareVC.xib */; };
+		E73031701B16E1B10019E5E0 /* UrbantvVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E730316E1B16E1B10019E5E0 /* UrbantvVC.m */; };
+		E73031711B16E1B10019E5E0 /* UrbantvVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E730316F1B16E1B10019E5E0 /* UrbantvVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E73031221B16D29B0019E5E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E73031001B16D29B0019E5E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E73031071B16D29B0019E5E0;
+			remoteInfo = Urban96;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E73031081B16D29B0019E5E0 /* TabbarCustomDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarCustomDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E730310C1B16D29B0019E5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E730310D1B16D29B0019E5E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E73031181B16D29B0019E5E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E730311B1B16D29B0019E5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E73031211B16D29B0019E5E0 /* TabbarCustomDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbarCustomDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73031261B16D29B0019E5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73031271B16D29B0019E5E0 /* Urban96Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Urban96Tests.m; sourceTree = "<group>"; };
+		E73031411B16DD1B0019E5E0 /* UITabBarCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITabBarCustom.h; sourceTree = "<group>"; };
+		E73031421B16DD1B0019E5E0 /* UITabBarCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITabBarCustom.m; sourceTree = "<group>"; };
+		E73031441B16DDA10019E5E0 /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		E73031461B16DDB50019E5E0 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		E73031471B16DDB50019E5E0 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		E730314C1B16E1190019E5E0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E730314D1B16E1190019E5E0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E73031531B16E1190019E5E0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E73031541B16E1190019E5E0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E73031551B16E1190019E5E0 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		E73031591B16E1510019E5E0 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		E730315A1B16E1510019E5E0 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		E730315B1B16E1510019E5E0 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		E730315E1B16E1630019E5E0 /* NewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewVC.h; sourceTree = "<group>"; };
+		E730315F1B16E1630019E5E0 /* NewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewVC.m; sourceTree = "<group>"; };
+		E73031601B16E1630019E5E0 /* NewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewVC.xib; sourceTree = "<group>"; };
+		E73031631B16E1810019E5E0 /* ScheduleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleVC.h; sourceTree = "<group>"; };
+		E73031641B16E1810019E5E0 /* ScheduleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleVC.m; sourceTree = "<group>"; };
+		E73031651B16E1810019E5E0 /* ScheduleVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleVC.xib; sourceTree = "<group>"; };
+		E73031681B16E1910019E5E0 /* ShareVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareVC.h; sourceTree = "<group>"; };
+		E73031691B16E1910019E5E0 /* ShareVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareVC.m; sourceTree = "<group>"; };
+		E730316A1B16E1910019E5E0 /* ShareVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareVC.xib; sourceTree = "<group>"; };
+		E730316D1B16E1B10019E5E0 /* UrbantvVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrbantvVC.h; sourceTree = "<group>"; };
+		E730316E1B16E1B10019E5E0 /* UrbantvVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrbantvVC.m; sourceTree = "<group>"; };
+		E730316F1B16E1B10019E5E0 /* UrbantvVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UrbantvVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E73031051B16D29B0019E5E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E730311E1B16D29B0019E5E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E73030FF1B16D29B0019E5E0 = {
+			isa = PBXGroup;
+			children = (
+				E730310A1B16D29B0019E5E0 /* Urban96 */,
+				E73031241B16D29B0019E5E0 /* Urban96Tests */,
+				E73031091B16D29B0019E5E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E73031091B16D29B0019E5E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E73031081B16D29B0019E5E0 /* TabbarCustomDemo.app */,
+				E73031211B16D29B0019E5E0 /* TabbarCustomDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E730310A1B16D29B0019E5E0 /* Urban96 */ = {
+			isa = PBXGroup;
+			children = (
+				E73031361B16D31F0019E5E0 /* Entities */,
+				E730314A1B16E1190019E5E0 /* Classes */,
+				E73031371B16D31F0019E5E0 /* Resorces */,
+				E73031181B16D29B0019E5E0 /* Images.xcassets */,
+				E730311A1B16D29B0019E5E0 /* LaunchScreen.xib */,
+				E730313A1B16D3410019E5E0 /* Framework */,
+				E730310B1B16D29B0019E5E0 /* Supporting Files */,
+			);
+			path = Urban96;
+			sourceTree = "<group>";
+		};
+		E730310B1B16D29B0019E5E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E730310C1B16D29B0019E5E0 /* Info.plist */,
+				E730310D1B16D29B0019E5E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E73031241B16D29B0019E5E0 /* Urban96Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E73031271B16D29B0019E5E0 /* Urban96Tests.m */,
+				E73031251B16D29B0019E5E0 /* Supporting Files */,
+			);
+			path = Urban96Tests;
+			sourceTree = "<group>";
+		};
+		E73031251B16D29B0019E5E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E73031261B16D29B0019E5E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E73031361B16D31F0019E5E0 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E73031451B16DDB50019E5E0 /* Singleton */,
+				E73031441B16DDA10019E5E0 /* Global.h */,
+				E73031401B16DD1B0019E5E0 /* Tabbarcontroller */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		E73031371B16D31F0019E5E0 /* Resorces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resorces;
+			sourceTree = "<group>";
+		};
+		E730313A1B16D3410019E5E0 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		E73031401B16DD1B0019E5E0 /* Tabbarcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				E73031411B16DD1B0019E5E0 /* UITabBarCustom.h */,
+				E73031421B16DD1B0019E5E0 /* UITabBarCustom.m */,
+			);
+			path = Tabbarcontroller;
+			sourceTree = "<group>";
+		};
+		E73031451B16DDB50019E5E0 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				E73031461B16DDB50019E5E0 /* Singleton.h */,
+				E73031471B16DDB50019E5E0 /* Singleton.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		E730314A1B16E1190019E5E0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E730314B1B16E1190019E5E0 /* AppDelegate */,
+				E730314E1B16E1190019E5E0 /* Home */,
+				E73031501B16E1190019E5E0 /* Schedule */,
+				E73031521B16E1190019E5E0 /* UrbanTv */,
+				E730314F1B16E1190019E5E0 /* News */,
+				E73031511B16E1190019E5E0 /* Share */,
+				E73031531B16E1190019E5E0 /* ViewController.h */,
+				E73031541B16E1190019E5E0 /* ViewController.m */,
+				E73031551B16E1190019E5E0 /* ViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E730314B1B16E1190019E5E0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E730314C1B16E1190019E5E0 /* AppDelegate.h */,
+				E730314D1B16E1190019E5E0 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E730314E1B16E1190019E5E0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E73031591B16E1510019E5E0 /* HomeVC.h */,
+				E730315A1B16E1510019E5E0 /* HomeVC.m */,
+				E730315B1B16E1510019E5E0 /* HomeVC.xib */,
+			);
+			name = Home;
+			path = home;
+			sourceTree = "<group>";
+		};
+		E730314F1B16E1190019E5E0 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				E730315E1B16E1630019E5E0 /* NewVC.h */,
+				E730315F1B16E1630019E5E0 /* NewVC.m */,
+				E73031601B16E1630019E5E0 /* NewVC.xib */,
+			);
+			name = News;
+			path = news;
+			sourceTree = "<group>";
+		};
+		E73031501B16E1190019E5E0 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				E73031631B16E1810019E5E0 /* ScheduleVC.h */,
+				E73031641B16E1810019E5E0 /* ScheduleVC.m */,
+				E73031651B16E1810019E5E0 /* ScheduleVC.xib */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		E73031511B16E1190019E5E0 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				E73031681B16E1910019E5E0 /* ShareVC.h */,
+				E73031691B16E1910019E5E0 /* ShareVC.m */,
+				E730316A1B16E1910019E5E0 /* ShareVC.xib */,
+			);
+			name = Share;
+			path = share;
+			sourceTree = "<group>";
+		};
+		E73031521B16E1190019E5E0 /* UrbanTv */ = {
+			isa = PBXGroup;
+			children = (
+				E730316D1B16E1B10019E5E0 /* UrbantvVC.h */,
+				E730316E1B16E1B10019E5E0 /* UrbantvVC.m */,
+				E730316F1B16E1B10019E5E0 /* UrbantvVC.xib */,
+			);
+			path = UrbanTv;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E73031071B16D29B0019E5E0 /* TabbarCustomDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E730312B1B16D29B0019E5E0 /* Build configuration list for PBXNativeTarget "TabbarCustomDemo" */;
+			buildPhases = (
+				E73031041B16D29B0019E5E0 /* Sources */,
+				E73031051B16D29B0019E5E0 /* Frameworks */,
+				E73031061B16D29B0019E5E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabbarCustomDemo;
+			productName = Urban96;
+			productReference = E73031081B16D29B0019E5E0 /* TabbarCustomDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E73031201B16D29B0019E5E0 /* TabbarCustomDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E730312E1B16D29B0019E5E0 /* Build configuration list for PBXNativeTarget "TabbarCustomDemoTests" */;
+			buildPhases = (
+				E730311D1B16D29B0019E5E0 /* Sources */,
+				E730311E1B16D29B0019E5E0 /* Frameworks */,
+				E730311F1B16D29B0019E5E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E73031231B16D29B0019E5E0 /* PBXTargetDependency */,
+			);
+			name = TabbarCustomDemoTests;
+			productName = Urban96Tests;
+			productReference = E73031211B16D29B0019E5E0 /* TabbarCustomDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E73031001B16D29B0019E5E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Tops;
+				TargetAttributes = {
+					E73031071B16D29B0019E5E0 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					E73031201B16D29B0019E5E0 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = E73031071B16D29B0019E5E0;
+					};
+				};
+			};
+			buildConfigurationList = E73031031B16D29B0019E5E0 /* Build configuration list for PBXProject "TabbarCustomDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E73030FF1B16D29B0019E5E0;
+			productRefGroup = E73031091B16D29B0019E5E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E73031071B16D29B0019E5E0 /* TabbarCustomDemo */,
+				E73031201B16D29B0019E5E0 /* TabbarCustomDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E73031061B16D29B0019E5E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E730311C1B16D29B0019E5E0 /* LaunchScreen.xib in Resources */,
+				E73031711B16E1B10019E5E0 /* UrbantvVC.xib in Resources */,
+				E730315D1B16E1510019E5E0 /* HomeVC.xib in Resources */,
+				E730316C1B16E1910019E5E0 /* ShareVC.xib in Resources */,
+				E73031581B16E1190019E5E0 /* ViewController.xib in Resources */,
+				E73031671B16E1810019E5E0 /* ScheduleVC.xib in Resources */,
+				E73031191B16D29B0019E5E0 /* Images.xcassets in Resources */,
+				E73031621B16E1630019E5E0 /* NewVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E730311F1B16D29B0019E5E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E73031041B16D29B0019E5E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73031561B16E1190019E5E0 /* AppDelegate.m in Sources */,
+				E73031701B16E1B10019E5E0 /* UrbantvVC.m in Sources */,
+				E73031431B16DD1B0019E5E0 /* UITabBarCustom.m in Sources */,
+				E730310E1B16D29B0019E5E0 /* main.m in Sources */,
+				E730315C1B16E1510019E5E0 /* HomeVC.m in Sources */,
+				E73031611B16E1630019E5E0 /* NewVC.m in Sources */,
+				E73031661B16E1810019E5E0 /* ScheduleVC.m in Sources */,
+				E73031481B16DDB50019E5E0 /* Singleton.m in Sources */,
+				E73031571B16E1190019E5E0 /* ViewController.m in Sources */,
+				E730316B1B16E1910019E5E0 /* ShareVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E730311D1B16D29B0019E5E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73031281B16D29B0019E5E0 /* Urban96Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E73031231B16D29B0019E5E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E73031071B16D29B0019E5E0 /* TabbarCustomDemo */;
+			targetProxy = E73031221B16D29B0019E5E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E730311A1B16D29B0019E5E0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E730311B1B16D29B0019E5E0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E73031291B16D29B0019E5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E730312A1B16D29B0019E5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E730312C1B16D29B0019E5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Urban96/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = TabbarCustomDemo;
+			};
+			name = Debug;
+		};
+		E730312D1B16D29B0019E5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Urban96/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = TabbarCustomDemo;
+			};
+			name = Release;
+		};
+		E730312F1B16D29B0019E5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Urban96Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = TabbarCustomDemoTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Urban96.app/Urban96";
+			};
+			name = Debug;
+		};
+		E73031301B16D29B0019E5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Urban96Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = TabbarCustomDemoTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Urban96.app/Urban96";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E73031031B16D29B0019E5E0 /* Build configuration list for PBXProject "TabbarCustomDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73031291B16D29B0019E5E0 /* Debug */,
+				E730312A1B16D29B0019E5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E730312B1B16D29B0019E5E0 /* Build configuration list for PBXNativeTarget "TabbarCustomDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E730312C1B16D29B0019E5E0 /* Debug */,
+				E730312D1B16D29B0019E5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E730312E1B16D29B0019E5E0 /* Build configuration list for PBXNativeTarget "TabbarCustomDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E730312F1B16D29B0019E5E0 /* Debug */,
+				E73031301B16D29B0019E5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E73031001B16D29B0019E5E0 /* Project object */;
+}

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  NewVC.h
 //  Urban96
 //
 //  Created by Tops on 5/28/15.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface NewVC : UIViewController
 
 @end
-
